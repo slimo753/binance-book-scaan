@@ -6,8 +6,8 @@ from requests import ReadTimeout, ConnectTimeout, HTTPError, Timeout, Connection
 import time
 
 # Ключи binance
-api_key = "ovYox0YXIA8oG9HL0dtFDxXbfnHCMotUPTcdeW8nQvyinL1fIQmvR5dpECRo6gwB"
-api_secret = "FVyBDAG2Typd6dVnJe06USLfkDbOWgcjPYJXFpzl2OMRH25ZDzR9stcn20IMKjyf"
+api_key = ""
+api_secret = ""
 client = Client(api_key, api_secret)
 currency_pair = "BTCUSDT"
 
